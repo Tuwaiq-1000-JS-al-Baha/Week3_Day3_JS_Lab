@@ -27,3 +27,65 @@
     #### Extra Bonus:
      - Write a function that only takes `rock`, `paper`, or `scissors` as an argument for the user 1 then chooses `rock`, `paper`, or `scissors` randomly for the computer, and returns whether the user 1 `win`, `lose`, or `tie.
     - Example: `playGame('rock') // Computer picked: paper. User picked: rock.  user 1 lose => return 'lose'.`
+
+
+## DOM
+## Creating Random Images
+
+Start of with the following HTML:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div>
+    <label>
+      Width:
+      <input type="number" class="width" />
+    </label>
+    <label>
+      Height:
+      <input type="number" class="height" />
+    </label>
+    <button id="randomize">Get random image!</button>
+  </div>
+
+  <div class="image"></div>
+
+</body>
+
+</html>
+```
+### Bonus 1
+
+- Create and link a JavaScript file
+- When someone clicks on thebutton with the id `randomize`:
+  - Create an `img` element
+  - Create a URL based on [this documentation](https://source.unsplash.com/)
+    - e.g. It might look something like this: `https://source.unsplash.com/1600x900`
+
+
+
+### Bonus 2
+
+Allow the user to select the width and the height!
+
+### Bonus 3
+
+Allow the user to select where their image comes from using a dropdown
+
+Suggested options:
+
+- [Picsum](https://picsum.photos/)
+- [Fill Murray](http://www.fillmurray.com/)
+- [Place Cage](http://www.placecage.com/)
+- [Lorem Flickr](https://loremflickr.com/)
